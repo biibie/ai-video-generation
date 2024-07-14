@@ -50,69 +50,68 @@ With the audio files, we proceed to download the videos using the videos_downloa
 Finally, we save the completed video by combining the video clips and audio using the final_video_assembler.py script. The resulting video is now ready to be shared!  To enhance the video with subtitles, we use the subtitles.py script to generate subtitle files from the audio, ensuring accessibility and clarity. 
 
 ## Scripts and Usage
-1. Script Generation (Script_generator.py)
-   
-   Description :   
+
+1. **Script Generation (Script_generator.py)**
+
+   **Description:**
    Generates an educational script using the Cohere AI model based on a given topic, explanation level, target age, creativity, humor, and duration.
-   Usage:
-    Ensure you have your Cohere API key in keys.json.
 
+   **Usage:**
+   - Ensure you have your Cohere API key in `keys.json`.
 
-3. Script Splitting (script_splitter.py)
-    Description:
--Splits a given script into sentences using NLTK's sentence tokenizer for easier processing.
+2. **Script Splitting (script_splitter.py)**
 
-    Usage:
--Ensure you have NLTK installed.
+   **Description:**
+   Splits a given script into sentences using NLTK's sentence tokenizer for easier processing.
 
+   **Usage:**
+   - Ensure you have NLTK installed.
 
-4. Text-to-Speech Conversion (text_to_speech.py)
-    Description:
-   
--Converts the generated script into speech using the ElevenLabs API and splits the script into manageable segments. the audio will be found in Storage_layer/media in full_audio and audio_chinks (for the character later on)
+3. **Text-to-Speech Conversion (text_to_speech.py)**
 
-   Usage:
-    
--Ensure you have your ElevenLabs API key in keys.json.
+   **Description:**
+   Converts the generated script into speech using the ElevenLabs API and splits the script into manageable segments. The audio will be found in `Storage_layer/media` in `full_audio` and `audio_chunks` (for the character later on).
 
+   **Usage:**
+   - Ensure you have your ElevenLabs API key in `keys.json`.
 
-5. Search Query Creation (search_query.py)
-   
-    Description:
-   
--Generates search queries from script segments to retrieve relevant stock videos.
+4. **Search Query Creation (search_query.py)**
 
-   Usage:
-    
--Ensure you have your Cohere API key in keys.json.
+   **Description:**
+   Generates search queries from script segments to retrieve relevant stock videos.
 
+   **Usage:**
+   - Ensure you have your Cohere API key in `keys.json`.
 
-7. Video Downloading (videos_downloader.py)
-    Description:
--Downloads and trims videos from Pexels based on search queries and distributes the durations to match the total audio length. and store them in Storage_layer/media/video_chunks
+5. **Video Downloading (videos_downloader.py)**
 
-    Usage:
--Ensure you have your Pexels API key in keys.json.
+   **Description:**
+   Downloads and trims videos from Pexels based on search queries and distributes the durations to match the total audio length. The videos are stored in `Storage_layer/media/video_chunks`.
 
+   **Usage:**
+   - Ensure you have your Pexels API key in `keys.json`.
 
-8. Video Assembly (video_assembler.py)
-    Description:
--Concatenates video clips, adjusts their length to match the audio, and saves the final output in Storage_layer/media/video_assembler
+6. **Video Assembly (video_assembler.py)**
 
-    Usage:
--Place your video files in a directory named video_assembler
+   **Description:**
+   Concatenates video clips, adjusts their length to match the audio, and saves the final output in `Storage_layer/media/video_assembler`.
 
+   **Usage:**
+   - Place your video files in a directory named `video_assembler`.
 
-9. Final Video Assembly (final_video_assembler.py)
-    Description:
--Merges an audio file with a video file using FFmpeg, and adds subtitles to the video. stored in final_video
+7. **Final Video Assembly (final_video_assembler.py)**
 
-    Usage:
--Ensure FFmpeg is installed and accessible from your command line.
+   **Description:**
+   Merges an audio file with a video file using FFmpeg and adds subtitles to the video. The final video is stored in `final_video`.
 
-10. Subtitle Generation (subtitles.py)
-    Description:
--Transcribes audio and generates subtitles using AssemblyAI.
+   **Usage:**
+   - Ensure FFmpeg is installed and accessible from your command line.
 
-    Usage:
--Ensure you have your AssemblyAI API key in keys.json.
+8. **Subtitle Generation (subtitles.py)**
+
+   **Description:**
+   Transcribes audio and generates subtitles using AssemblyAI.
+
+   **Usage:**
+   - Ensure you have your AssemblyAI API key in `keys.json`.
+
