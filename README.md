@@ -52,13 +52,10 @@ Finally, we save the completed video by combining the video clips and audio usin
 ## Scripts and Usage
 1. Script Generation (Script_generator.py)
    
-    Description :
-   
--Generates an educational script using the Cohere AI model based on a given topic, explanation level, target age, creativity, humor, and duration.
-
+   Description :   
+   Generates an educational script using the Cohere AI model based on a given topic, explanation level, target age, creativity, humor, and duration.
    Usage:
-    
--Ensure you have your Cohere API key in keys.json.
+    Ensure you have your Cohere API key in keys.json.
 
 
 3. Script Splitting (script_splitter.py)
