@@ -56,7 +56,7 @@ Finally, we save the completed video by combining the video clips and audio usin
    
 -Generates an educational script using the Cohere AI model based on a given topic, explanation level, target age, creativity, humor, and duration.
 
-    Usage:
+   Usage:
     
 -Ensure you have your Cohere API key in keys.json.
 
@@ -74,7 +74,7 @@ Finally, we save the completed video by combining the video clips and audio usin
    
 -Converts the generated script into speech using the ElevenLabs API and splits the script into manageable segments. the audio will be found in Storage_layer/media in full_audio and audio_chinks (for the character later on)
 
-    Usage:
+   Usage:
     
 -Ensure you have your ElevenLabs API key in keys.json.
 
@@ -85,7 +85,7 @@ Finally, we save the completed video by combining the video clips and audio usin
    
 -Generates search queries from script segments to retrieve relevant stock videos.
 
-    Usage:
+   Usage:
     
 -Ensure you have your Cohere API key in keys.json.
 
