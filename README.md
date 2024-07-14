@@ -51,14 +51,17 @@ Finally, we save the completed video by combining the video clips and audio usin
 
 ## Scripts and Usage
 1. Script Generation (Script_generator.py)
+   
     Description :
+   
 -Generates an educational script using the Cohere AI model based on a given topic, explanation level, target age, creativity, humor, and duration.
 
     Usage:
+    
 -Ensure you have your Cohere API key in keys.json.
 
 
-2. Script Splitting (script_splitter.py)
+3. Script Splitting (script_splitter.py)
     Description:
 -Splits a given script into sentences using NLTK's sentence tokenizer for easier processing.
 
@@ -66,23 +69,28 @@ Finally, we save the completed video by combining the video clips and audio usin
 -Ensure you have NLTK installed.
 
 
-3. Text-to-Speech Conversion (text_to_speech.py)
+4. Text-to-Speech Conversion (text_to_speech.py)
     Description:
+   
 -Converts the generated script into speech using the ElevenLabs API and splits the script into manageable segments. the audio will be found in Storage_layer/media in full_audio and audio_chinks (for the character later on)
 
     Usage:
+    
 -Ensure you have your ElevenLabs API key in keys.json.
 
 
-4. Search Query Creation (search_query.py)
+5. Search Query Creation (search_query.py)
+   
     Description:
+   
 -Generates search queries from script segments to retrieve relevant stock videos.
 
     Usage:
+    
 -Ensure you have your Cohere API key in keys.json.
 
 
-5. Video Downloading (videos_downloader.py)
+7. Video Downloading (videos_downloader.py)
     Description:
 -Downloads and trims videos from Pexels based on search queries and distributes the durations to match the total audio length. and store them in Storage_layer/media/video_chunks
 
@@ -90,7 +98,7 @@ Finally, we save the completed video by combining the video clips and audio usin
 -Ensure you have your Pexels API key in keys.json.
 
 
-6. Video Assembly (video_assembler.py)
+8. Video Assembly (video_assembler.py)
     Description:
 -Concatenates video clips, adjusts their length to match the audio, and saves the final output in Storage_layer/media/video_assembler
 
@@ -98,14 +106,14 @@ Finally, we save the completed video by combining the video clips and audio usin
 -Place your video files in a directory named video_assembler
 
 
-7. Final Video Assembly (final_video_assembler.py)
+9. Final Video Assembly (final_video_assembler.py)
     Description:
 -Merges an audio file with a video file using FFmpeg, and adds subtitles to the video. stored in final_video
 
     Usage:
 -Ensure FFmpeg is installed and accessible from your command line.
 
-8. Subtitle Generation (subtitles.py)
+10. Subtitle Generation (subtitles.py)
     Description:
 -Transcribes audio and generates subtitles using AssemblyAI.
 
