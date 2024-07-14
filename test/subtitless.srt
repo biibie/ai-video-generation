@@ -1,0 +1,136 @@
+1
+00:00:00,240 --> 00:00:03,990
+Artificial intelligence is a broad branch of computer
+
+2
+00:00:04,030 --> 00:00:07,342
+science that focuses on creating machines that can mimic human
+
+3
+00:00:07,406 --> 00:00:10,486
+intelligence and perform complex tasks.
+
+4
+00:00:10,678 --> 00:00:14,526
+AI enables computers to utilize advanced functions such
+
+5
+00:00:14,558 --> 00:00:18,054
+as understanding spoken and written language, analyzing data,
+
+6
+00:00:18,182 --> 00:00:21,726
+making recommendations, and more. One example of how
+
+7
+00:00:21,758 --> 00:00:25,628
+AI is used is in optical character recognition OCR.
+
+8
+00:00:25,814 --> 00:00:30,168
+OCR uses AI to extract text and data from images and documents,
+
+9
+00:00:30,304 --> 00:00:33,248
+turning unstructured content into structured data,
+
+10
+00:00:33,384 --> 00:00:36,664
+and unlocking valuable insights. This is possible
+
+11
+00:00:36,752 --> 00:00:40,256
+because AI can see and understand the text within images and
+
+12
+00:00:40,288 --> 00:00:44,536
+documents, just like humans. This is accomplished with technologies
+
+13
+00:00:44,608 --> 00:00:48,736
+like convolutional neural networks and recurrent
+
+14
+00:00:48,768 --> 00:00:52,024
+neural networks, which are modeled on the human
+
+15
+00:00:52,072 --> 00:00:55,850
+brain and nervous system. There are several applications of AI,
+
+16
+00:00:55,930 --> 00:00:58,330
+including agriculture, astronomy,
+
+17
+00:00:58,450 --> 00:01:01,810
+governance, and many more. In agriculture,
+
+18
+00:01:01,930 --> 00:01:05,882
+AI helps optimize various farming practices by analyzing data
+
+19
+00:01:05,986 --> 00:01:09,066
+and forecasting trends. In astronomy,
+
+20
+00:01:09,178 --> 00:01:12,722
+AI enables scientists to analyze significant amounts of data,
+
+21
+00:01:12,866 --> 00:01:15,546
+helping to discover new scientific insights.
+
+22
+00:01:15,698 --> 00:01:19,772
+AI can also be used for more sinister purposes. AI is
+
+23
+00:01:19,796 --> 00:01:23,516
+exploited by authoritarian governments to control their citizens through facial
+
+24
+00:01:23,548 --> 00:01:26,760
+and voice recognition techniques, enabling surveillance.
+
+25
+00:01:27,060 --> 00:01:30,676
+This form of AI is also used to classify individuals as
+
+26
+00:01:30,708 --> 00:01:34,164
+potential enemies of the state, targeting them with propaganda
+
+27
+00:01:34,212 --> 00:01:37,708
+and misinformation. Overall, AI is a
+
+28
+00:01:37,724 --> 00:01:41,396
+set of technologies that allow computers to perform a variety of advanced
+
+29
+00:01:41,428 --> 00:01:45,308
+functions, demonstrating intelligent behavior to maximize the chances
+
+30
+00:01:45,364 --> 00:01:48,448
+of achieving defined goals. Remember,
+
+31
+00:01:48,584 --> 00:01:52,152
+AI is all around us, from the personalized recommendations
+
+32
+00:01:52,216 --> 00:01:56,500
+on Netflix to the interactive conversations with Google Assistant.
+
+33
+00:01:57,000 --> 00:02:00,432
+Exciting advancements in AI are happening daily and
+
+34
+00:02:00,456 --> 00:02:02,440
+the future of this technology is limitless.
+
