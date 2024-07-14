@@ -32,9 +32,12 @@ Each step builds upon the previous one, ensuring a smooth and cohesive process f
 
 3. Obtain API keys for the following services: (you should login first, then get api keys for free)
 
-    -Cohere (https://cohere.com/) 
+    -Cohere (https://cohere.com/)
+   
     -AssemblyAI (https://www.assemblyai.com/)
+   
     -ElevenLabs (https://elevenlabs.io/)
+   
     -Pexels (https://www.pexels.com/)
 
 
